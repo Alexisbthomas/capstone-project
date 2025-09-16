@@ -1,0 +1,60 @@
+body {
+  background-image:url("background.jpg");
+/* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:red;
+}
+
+
+.container {
+  max-width: 800px;
+}
+
+.card {
+  background-color: #cd1609; /* Darker card background */
+  border: 1px solid #265891; /* Subtle border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-label {
+  color: #c9d1d9; /* Light text color for labels */
+}
+
+.form-control,
+.form-control:focus {
+  background-color: #010409; /* Dark input background */
+  color: #c9d1d9; /* Light input text color */
+  border: 1px solid #30363d;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(201, 209, 217, 0.25); /* Lighter focus glow */
+}
+
+/* Add custom styles for the movie poster and details */
+.movie-info {
+  border: 1px solid #30363d;
+  background-color: #f20b0b;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.movie-info h2 {
+  font-family: 'Georgia', serif;
+}
+
+.movie-info img {
+  max-width: 300px;
+}
+
+#output{
+color:#f20b0b;
+}
+h1{
+    text-shadow: 2px 2px #010409;
+}
